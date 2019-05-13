@@ -1,7 +1,8 @@
+#ifndef __DELAY_H__
+#define __DELAY_H__
 
-#ifndef delays
-#define delays
-/*...............function_definitions.............*/
-void delay_milliSecand(int n);
-void delay_microSecand(int n);
-#endif
+#include "stdint.h"
+
+void delay(uint32_t time);
+
+#endif // __DELAY_H__

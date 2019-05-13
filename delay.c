@@ -1,13 +1,9 @@
-void delay_milliSecand(int n){
-    for(int i=0;i<n;i++){
-        for(int j=0;j<3180;j++){
-        }
-    }
-}
+#include "systick.h"
+#include "delay.h"
 
-void delay_microSecand(int n){
-    for(int i=0;i<n;i++){
-        for(int j=0;j<3;j++){
-        }
-    }
+void delay(uint32_t time){
+	uint32_t i;
+	for(i = 0;i < time;i++){
+		systick_wait1ms();
+	}
 }
