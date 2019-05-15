@@ -1,0 +1,178 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Khaled Mohammed, Faculty Of Engineering ASU, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\15005\Desktop\CSE312G9\CSE312G9_1.uvprojx
+Project File Date:  05/04/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling delay.c...
+compiling systick_init.c...
+compiling PLL.c...
+compiling ADC.c...
+compiling systick_wait1ms.c...
+compiling UART.c...
+UART.c(39): warning:  #1-D: last line of file ends without a newline
+  }
+UART.c: 1 warning, 0 errors
+compiling DIO.c...
+DIO.c(16): warning:  #111-D: statement is unreachable
+  		break;
+DIO.c(20): warning:  #111-D: statement is unreachable
+  		break;
+DIO.c(24): warning:  #111-D: statement is unreachable
+  		break;
+DIO.c(28): warning:  #111-D: statement is unreachable
+  		break;
+DIO.c(32): warning:  #111-D: statement is unreachable
+  		break;
+DIO.c(36): warning:  #111-D: statement is unreachable
+  		break;
+DIO.c(150): warning:  #1-D: last line of file ends without a newline
+  }
+DIO.c: 7 warnings, 0 errors
+compiling main.c...
+UART.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif // __UART_H__
+main.c(139): warning:  #550-D: variable "pout"  was set but never used
+  	uint16_t pout;
+main.c: 2 warnings, 0 errors
+compiling LCD_clearScreen.c...
+compiling itoa.c...
+itoa.c(18): warning:  #1-D: last line of file ends without a newline
+  }
+itoa.c: 1 warning, 0 errors
+compiling LCD_displayCharacter.c...
+LCD_displayCharacter.c(19): warning:  #1-D: last line of file ends without a newline
+  }
+LCD_displayCharacter.c: 1 warning, 0 errors
+compiling LCD_displayString.c...
+LCD_displayString.c(15): warning:  #1-D: last line of file ends without a newline
+  }
+LCD_displayString.c: 1 warning, 0 errors
+compiling LCD_displayStringRowColumn.c...
+LCD_displayStringRowColumn.c(10): warning:  #1-D: last line of file ends without a newline
+  }
+LCD_displayStringRowColumn.c: 1 warning, 0 errors
+compiling LCD_goToRowColumn.c...
+compiling LCD_Init.c...
+LCD_Init.c(28): warning:  #1-D: last line of file ends without a newline
+  }
+LCD_Init.c: 1 warning, 0 errors
+compiling LCD_sendCommand.c...
+compiling Port_Init.c...
+compiling LCD_intgerToString.c...
+LCD_intgerToString.c(8): warning:  #223-D: function "itoa" declared implicitly
+    itoa(data,buff,10); /* 10 for decimal */
+LCD_intgerToString.c(10): warning:  #1-D: last line of file ends without a newline
+  }
+LCD_intgerToString.c: 2 warnings, 0 errors
+compiling Port_SetPinPullDown.c...
+Port_SetPinPullDown.c(86): warning:  #1-D: last line of file ends without a newline
+  }
+Port_SetPinPullDown.c: 1 warning, 0 errors
+compiling Port_SetPinDirection.c...
+assembling startup_TM4C123.s...
+compiling Port_SetPinPullUp.c...
+Port_SetPinPullUp.c(86): warning:  #1-D: last line of file ends without a newline
+  }
+Port_SetPinPullUp.c: 1 warning, 0 errors
+compiling system_TM4C123.c...
+compiling freertos_evr.c...
+compiling list.c...
+compiling heap_4.c...
+compiling port.c...
+compiling timers.c...
+compiling queue.c...
+compiling tasks.c...
+linking...
+Program Size: Code=12264 RO-data=652 RW-data=116 ZI-data=30852  
+".\Objects\CSE312G9_1.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.0.1.pack
+                ARM.CMSIS-FreeRTOS.10.0.1
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Timers Version: 10.0.1
+   * Component: Heap Variant: Heap_4 Version: 10.0.1
+   * Component: Core Version: 10.0.1
+   * Component: Config Variant: FreeRTOS Version: 10.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\RTOS
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.0.1\CMSIS\RTOS2\FreeRTOS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.0.1\Source\include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS-FreeRTOS\10.0.1\Source\portable\RVDS\ARM_CM4F
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+      Source file:   Device\Source\system_TM4C123.c
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+
+   * Component: ARM.FreeRTOS::RTOS:Timers:10.0.1
+      Include file:  Source\include\timers.h
+      Source file:   Source\timers.c
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_4:10.0.1
+      Source file:   Source\portable\MemMang\heap_4.c
+
+   * Component: ARM.FreeRTOS::RTOS:Core:10.0.1
+      Source file:   Source\portable\RVDS\ARM_CM4F\port.c
+      Include file:  Source\include\FreeRTOS.h
+      Source file:   Source\list.c
+      Include file:  Source\include\semphr.h
+      Source file:   Source\queue.c
+      Include file:  Source\include\task.h
+      Source file:   Source\tasks.c
+      Include file:  Source\include\queue.h
+      Include file:  CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+
+   * Component: ARM.FreeRTOS::RTOS:Config:FreeRTOS:10.0.1
+      Include file:  Config\ARMCM\FreeRTOSConfig.h
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
