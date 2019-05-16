@@ -1,6 +1,7 @@
 
 #include "lcd.h"
-#include "MCAL.h"
+#include "Port.h"
+#include "DIO.h"
 #include "delay.h"
 void LCD_init(void)
 {
