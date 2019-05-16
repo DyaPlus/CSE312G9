@@ -1,7 +1,8 @@
 #include "tm4c123gh6pm.h"
 #include "stdint.h"
+#include "UART.h"
 
-#define GPIO_PA10_M 0x03
+define GPIO_PA10_M 0x03
 
 void UART0_Init(void){
 	SYSCTL_RCGCUART_R |= SYSCTL_RCGCUART_R7;
