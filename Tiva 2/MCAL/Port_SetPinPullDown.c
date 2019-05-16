@@ -2,7 +2,7 @@
 // 1. Pre-processor Directives Section
 #include "tm4c123gh6pm.h"
 #include "typedefs.h"
-#include "MCAL.h"
+#include "Port.h"
 
 // function to set pulldown of selected pins of port
 //INPUTS:port_index,selected_pins,enable
