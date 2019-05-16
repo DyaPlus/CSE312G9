@@ -1,5 +1,6 @@
 #include "lcd.h"
-#include "MCAL.h"
+#include "Port.h"
+#include "DIO.h"
 #include "delay.h"
 
 void itoa (int data,char buffer[] , int base)
