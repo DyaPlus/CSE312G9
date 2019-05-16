@@ -1,6 +1,6 @@
 #include "typedefs.h"
 #include "tm4c123gh6pm.h"
-
+#include "DIO.h"
 #define HWREG(x) 						(*((volatile unsigned long *)(x)))
 enum Dio_LevelType {
 	 STD_LOW = 0  , STD_HIGH = 1 
